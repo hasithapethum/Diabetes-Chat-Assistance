@@ -89,7 +89,7 @@ sympy==1.12
 threadpoolctl==3.4.0
 tinycss2==1.2.1
 tldextract==5.1.2
-torch==2.1.1
+torch==2.2.2
 torchaudio==2.1.1
 torchvision==0.16.1
 tornado==6.4
