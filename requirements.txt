@@ -37,6 +37,7 @@ rapidfuzz==3.5.2
 regex==2023.10.3
 requests==2.31.0
 rich==13.7.0
+setuptools==61.2.0
 six==1.16.0
 soupsieve==2.5
 sympy==1.12
