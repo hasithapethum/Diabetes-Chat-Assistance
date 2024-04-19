@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Intent Management</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h1>Intents Management</h1>
+    <a href="{{ url_for('create_intent') }}"><button class="btn"  type="submit">Create New Intent</button></a><br>
+    <br>
+    <a href="{{ url_for('run_training') }}"><button class="btn"  type="submit">Run Training</button></a><br>
+
+
+    <br>
+    <form method="POST" action="{{ url_for('search') }}">
+        <label for="search_term">Search Intents:</label>
+        <input type="text" name="search_term">
+        <button type="submit">Search</button>
+    </form>
+    <ul>
+        {% for intent in intents %}
+            <li>
+                <b>{{ intent.tag }}</b> - {{ intent.patterns|join(', ') }}
+                <a href="{{ url_for('update_intent', tag=intent.tag) }}">Update</a>
+                <form method="POST" action="{{ url_for('delete_intent', tag=intent.tag) }}">
+                    <button type="submit">Delete</button>
+                </form>
+            </li>
+        {% endfor %}
+    </ul>
+    
+</body>
+</html>

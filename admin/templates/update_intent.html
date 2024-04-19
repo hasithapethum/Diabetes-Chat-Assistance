@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Intent</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h1>Update Response for {{ tag }}</h1>
+    <form method="POST">
+        <label for="new_response">New Response:</label>
+        <input type="text" name="new_response" required>
+        <button type="submit">Update</button>
+    </form>
+</body>
+</html>

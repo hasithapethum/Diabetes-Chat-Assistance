@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Run Training</title>
+</head>
+<body>
+    <h1>Run Training</h1>
+    <form method="POST">
+        <button type="submit">Run Training</button>
+    </form>
+    <br>
+    <br>
+    <a href="{{ url_for('index') }}"><button type="submit">Back to Home</button></a>
+</body>
+</html>

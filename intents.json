@@ -1,0 +1,1013 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Hi there", "Hello there", "Greetings"],
+      "responses": [
+        "Hello! I am GlucoGenie, your diabetes assistant. How can I help you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "Goodbye! Take care.",
+        "Until next time! Stay healthy."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome! If you have more questions, feel free to ask.",
+        "Glad I could assist! Don't hesitate to reach out if you need further information."
+      ]
+    },
+    {
+      "tag": "diabetes_definition",
+      "patterns": [
+        "What is diabetes?",
+        "Define diabetes",
+        "Explain diabetes"
+      ],
+      "responses": [
+        "Diabetes is a chronic condition that affects how your body turns food into energy. It is characterized by high levels of sugar (glucose) in the blood."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are the symptoms of diabetes?",
+        "Symptoms of diabetes"
+      ],
+      "responses": [
+        "Common symptoms of diabetes include increased thirst, frequent urination, unexplained weight loss, fatigue, blurred vision, and slow healing of wounds."
+      ]
+    },
+    {
+      "tag": "types",
+      "patterns": [
+        "What are the types of diabetes?",
+        "Types of diabetes"
+      ],
+      "responses": [
+        "There are primarily three types of diabetes: type 1, type 2, and gestational diabetes. Type 1 diabetes is usually diagnosed in children and young adults, type 2 diabetes is more common in adults and is often linked to lifestyle factors, and gestational diabetes occurs during pregnancy."
+      ]
+    },
+    {
+      "tag": "management",
+      "patterns": [
+        "How can diabetes be managed?",
+        "Diabetes management tips",
+        "Managing diabetes"
+      ],
+      "responses": [
+        "Diabetes can be managed through a combination of medication, healthy eating, regular exercise, monitoring blood sugar levels, and maintaining a healthy lifestyle. It's important to work closely with your healthcare team to develop a personalized management plan."
+      ]
+    },
+    {
+      "tag": "diet",
+      "patterns": [
+        "What diet should I follow for diabetes?",
+        "Diabetes-friendly diet",
+        "Healthy eating for diabetes"
+      ],
+      "responses": [
+        "A diabetes-friendly diet includes plenty of fruits, vegetables, whole grains, lean proteins, and healthy fats. It's important to monitor carbohydrate intake and choose foods with a low glycemic index. Consulting a registered dietitian can help create a personalized meal plan."
+      ]
+    },
+    {
+      "tag": "exercise",
+      "patterns": [
+        "How important is exercise for diabetes?",
+        "Exercise and diabetes",
+        "Physical activity for diabetes"
+      ],
+      "responses": [
+        "Regular exercise is crucial for managing diabetes as it helps improve insulin sensitivity, lower blood sugar levels, and maintain a healthy weight. Aim for at least 150 minutes of moderate-intensity aerobic activity per week, along with strength training exercises."
+      ]
+    },
+    {
+      "tag": "complications",
+      "patterns": [
+        "What are the complications of diabetes?",
+        "Diabetes complications"
+      ],
+      "responses": [
+        "Complications of diabetes include heart disease, stroke, kidney disease, nerve damage, foot problems, eye complications, and dental issues. Proper management and control of blood sugar levels can help reduce the risk of complications."
+      ]
+    },
+    {
+      "tag": "blood_sugar",
+      "patterns": [
+        "How do I monitor my blood sugar levels?",
+        "Blood sugar monitoring",
+        "Checking blood sugar"
+      ],
+      "responses": [
+        "Blood sugar levels can be monitored using a blood glucose meter. It's important to check blood sugar levels regularly, especially before and after meals, and to keep track of the results. Your healthcare provider can provide guidance on target levels and frequency of monitoring."
+      ]
+    },
+    {
+      "tag": "insulin",
+      "patterns": [
+        "What is insulin?",
+        "Role of insulin in diabetes"
+      ],
+      "responses": [
+        "Insulin is a hormone produced by the pancreas that helps regulate blood sugar levels. In diabetes, either the body does not produce enough insulin (type 1 diabetes) or the body's cells do not respond properly to insulin (type 2 diabetes). Insulin therapy may be necessary to manage blood sugar levels in some cases."
+      ]
+    },
+    {
+      "tag": "exercise_effect",
+      "patterns": [
+        "How does exercise affect blood sugar levels?",
+        "Exercise and blood sugar",
+        "Impact of exercise on diabetes"
+      ],
+      "responses": [
+        "Exercise can lower blood sugar levels by increasing insulin sensitivity, allowing your cells to use glucose more effectively for energy. It also helps muscles absorb glucose from the bloodstream, reducing overall blood sugar levels. However, it's important to monitor blood sugar levels before and after exercise, as intense physical activity can sometimes cause blood sugar to drop too low."
+      ]
+    },
+    {
+      "tag": "hereditary",
+      "patterns": [
+        "Is diabetes hereditary?",
+        "Genetic factors in diabetes"
+      ],
+      "responses": [
+        "Yes, genetics can play a role in the development of diabetes. Having a family history of diabetes increases the risk of developing the condition, but lifestyle factors such as diet and exercise also play a significant role."
+      ]
+    },
+    {
+      "tag": "age_factor",
+      "patterns": [
+        "Does age affect the risk of diabetes?",
+        "Diabetes and age"
+      ],
+      "responses": [
+        "Age is a risk factor for type 2 diabetes, with the risk increasing as people get older. However, type 1 diabetes can occur at any age, including in children and adolescents."
+      ]
+    },
+    {
+      "tag": "weight_management",
+      "patterns": [
+        "How does weight management affect diabetes?",
+        "Weight loss and diabetes",
+        "Obesity and diabetes"
+      ],
+      "responses": [
+        "Maintaining a healthy weight is important for managing diabetes, especially for individuals with type 2 diabetes. Losing weight can improve insulin sensitivity, lower blood sugar levels, and reduce the risk of complications associated with diabetes."
+      ]
+    },
+    {
+      "tag": "risk_factors",
+      "patterns": [
+        "What are the risk factors for diabetes?",
+        "Factors contributing to diabetes",
+        "Risk factors of diabetes"
+      ],
+      "responses": [
+        "Risk factors for diabetes include family history, being overweight or obese, unhealthy diet, physical inactivity, age, ethnicity, high blood pressure, and gestational diabetes during pregnancy."
+      ]
+    },
+    {
+      "tag": "diagnosis",
+      "patterns": [
+        "How is diabetes diagnosed?",
+        "Diagnosis of diabetes",
+        "Testing for diabetes"
+      ],
+      "responses": [
+        "Diabetes is diagnosed through blood tests that measure fasting blood sugar levels, oral glucose tolerance tests, or A1C tests. Your healthcare provider may also consider symptoms and risk factors when making a diagnosis."
+      ]
+    },
+    {
+      "tag": "treatment_options",
+      "patterns": [
+        "What are the treatment options for diabetes?",
+        "Diabetes treatment",
+        "Managing diabetes"
+      ],
+      "responses": [
+        "Treatment options for diabetes include lifestyle changes such as diet and exercise, oral medications, insulin therapy, and other injectable medications. Your healthcare provider will determine the most appropriate treatment plan based on your individual needs."
+      ]
+    },
+    {
+      "tag": "hypoglycemia",
+      "patterns": [
+        "What is hypoglycemia?",
+        "Low blood sugar",
+        "Symptoms of hypoglycemia"
+      ],
+      "responses": [
+        "Hypoglycemia, or low blood sugar, occurs when blood glucose levels drop below normal levels. Symptoms may include shakiness, sweating, confusion, dizziness, hunger, and rapid heartbeat. Prompt treatment with glucose or sugar-containing foods is important to raise blood sugar levels."
+      ]
+    },
+    {
+      "tag": "hyperglycemia",
+      "patterns": [
+        "What is hyperglycemia?",
+        "High blood sugar",
+        "Symptoms of hyperglycemia"
+      ],
+      "responses": [
+        "Hyperglycemia, or high blood sugar, occurs when blood glucose levels are above normal. Symptoms may include increased thirst, frequent urination, fatigue, blurred vision, and slow wound healing. It's important to monitor blood sugar levels and follow your treatment plan to prevent complications."
+      ]
+    },
+    {
+      "tag": "long_term_complications",
+      "patterns": [
+        "What are the long-term complications of diabetes?",
+        "Complications of uncontrolled diabetes",
+        "Effects of diabetes on the body"
+      ],
+      "responses": [
+        "Long-term complications of diabetes can include heart disease, stroke, kidney disease, nerve damage, eye problems, foot complications, and dental issues. Proper management of blood sugar levels and regular medical care can help reduce the risk of complications."
+      ]
+    },
+    {
+      "tag": "gestational_diabetes",
+      "patterns": [
+        "What is gestational diabetes?",
+        "Diabetes during pregnancy",
+        "Risk factors for gestational diabetes"
+      ],
+      "responses": [
+        "Gestational diabetes is a type of diabetes that develops during pregnancy. It can increase the risk of complications for both the mother and baby. Risk factors include being overweight, older maternal age, family history of diabetes, and certain ethnicities."
+      ]
+    },
+    {
+      "tag": "support_groups",
+      "patterns": [
+        "Are there support groups for diabetes?",
+        "Diabetes support",
+        "Joining diabetes communities"
+      ],
+      "responses": [
+        "Yes, there are many support groups and online communities for people with diabetes. These groups offer support, information, and resources for managing diabetes and connecting with others who understand the challenges of living with the condition."
+      ]
+    },
+    {
+      "tag": "alternative_treatments",
+      "patterns": [
+        "Are there alternative treatments for diabetes?",
+        "Natural remedies for diabetes",
+        "Alternative therapies for diabetes"
+      ],
+      "responses": [
+        "While lifestyle changes and conventional medical treatments are the mainstays of diabetes management, some people may explore alternative therapies such as acupuncture, herbal supplements, or dietary supplements. It's important to discuss these options with your healthcare provider and use them as complementary to your regular treatment plan."
+      ]
+    },
+    {
+      "tag": "diabetes_prevention",
+      "patterns": [
+        "How can diabetes be prevented?",
+        "Preventing diabetes",
+        "Reducing diabetes risk"
+      ],
+      "responses": [
+        "Diabetes can often be prevented or delayed through lifestyle modifications such as maintaining a healthy weight, eating a balanced diet, getting regular physical activity, and avoiding smoking. Regular check-ups and early detection of prediabetes can also help prevent the onset of type 2 diabetes."
+      ]
+    },
+    {
+      "tag": "blood_glucose_levels",
+      "patterns": [
+        "What are normal blood glucose levels?",
+        "Normal blood sugar range",
+        "Healthy blood glucose levels"
+      ],
+      "responses": [
+        "Normal blood glucose levels typically range between 70 to 130 milligrams per deciliter (mg/dL) before meals and less than 180 mg/dL two hours after meals. However, target ranges may vary depending on individual factors and treatment plans."
+      ]
+    },
+    {
+      "tag": "low_carb_diet",
+      "patterns": [
+        "Is a low-carb diet beneficial for diabetes?",
+        "Low-carb diet and diabetes",
+        "Effectiveness of low-carb diets"
+      ],
+      "responses": [
+        "A low-carb diet can be beneficial for some individuals with diabetes as it may help improve blood sugar control and reduce the need for insulin or oral medications. However, it's essential to work with a healthcare provider or registered dietitian to develop a personalized meal plan that meets your nutritional needs and supports your overall health."
+      ]
+    },
+    {
+      "tag": "continuous_glucose_monitoring",
+      "patterns": [
+        "What is continuous glucose monitoring (CGM)?",
+        "CGM devices for diabetes",
+        "Monitoring blood sugar with CGM"
+      ],
+      "responses": [
+        "Continuous glucose monitoring (CGM) is a method of tracking blood sugar levels in real-time throughout the day and night. It involves wearing a small sensor under the skin that measures glucose levels in the interstitial fluid. CGM devices provide valuable data to help individuals with diabetes make informed decisions about their treatment and lifestyle."
+      ]
+    },
+    {
+      "tag": "diabetes_apps",
+      "patterns": [
+        "Are there any helpful apps for managing diabetes?",
+        "Diabetes management apps",
+        "Top diabetes apps"
+      ],
+      "responses": [
+        "Yes, there are many apps available to help individuals with diabetes track blood sugar levels, monitor food intake, log physical activity, set medication reminders, and more. Some popular diabetes apps include MySugr, Glucose Buddy, and Glooko."
+      ]
+    },
+    {
+      "tag": "diabetes_education_classes",
+      "patterns": [
+        "Are diabetes education classes beneficial?",
+        "Diabetes education programs",
+        "Attending diabetes classes"
+      ],
+      "responses": [
+        "Diabetes education classes can be highly beneficial for individuals newly diagnosed with diabetes or those looking to improve their management skills. These classes cover topics such as understanding diabetes, meal planning, medication management, exercise, and coping strategies. They provide valuable information, support, and resources to help individuals live well with diabetes."
+      ]
+    },
+    {
+      "tag": "stress_management",
+      "patterns": [
+        "How does stress affect diabetes?",
+        "Stress management for diabetes",
+        "Coping with stress and diabetes"
+      ],
+      "responses": [
+        "Stress can affect blood sugar levels by triggering the release of hormones that increase glucose production in the body. Chronic stress can also make it harder to manage diabetes by influencing food choices, physical activity levels, and adherence to treatment plans. Managing stress through techniques such as mindfulness, relaxation exercises, and stress-reduction strategies can help improve blood sugar control and overall well-being."
+      ]
+    },
+    {
+      "tag": "diabetes_and_sleep",
+      "patterns": [
+        "How does sleep affect diabetes?",
+        "Sleep quality and diabetes",
+        "Improving sleep with diabetes"
+      ],
+      "responses": [
+        "Sleep plays a crucial role in diabetes management as it affects blood sugar levels, insulin sensitivity, and overall health. Poor sleep quality or inadequate sleep duration can lead to insulin resistance, weight gain, and difficulty controlling blood sugar levels. Establishing good sleep habits, such as maintaining a consistent sleep schedule, creating a restful sleep environment, and practicing relaxation techniques, can help improve sleep quality and support diabetes management."
+      ]
+    },
+    {
+      "tag": "alcohol_consumption",
+      "patterns": [
+        "Is it safe to consume alcohol with diabetes?",
+        "Alcohol and blood sugar levels",
+        "Effects of alcohol on diabetes"
+      ],
+      "responses": [
+        "Moderate alcohol consumption may be safe for some individuals with diabetes, but it's essential to be cautious and mindful of its effects on blood sugar levels. Alcohol can cause hypoglycemia (low blood sugar) if consumed without food or in excessive amounts. It can also interfere with diabetes medications and increase the risk of complications. If you choose to drink alcohol, do so in moderation and always monitor your blood sugar levels closely."
+      ]
+    },
+    {
+      "tag": "diabetes_and_exercise",
+      "patterns": [
+        "How does exercise benefit diabetes?",
+        "Exercise recommendations for diabetes",
+        "Physical activity and blood sugar control"
+      ],
+      "responses": [
+        "Exercise offers numerous benefits for individuals with diabetes, including improved blood sugar control, increased insulin sensitivity, weight management, reduced risk of heart disease, and enhanced overall health and well-being. Aim for at least 150 minutes of moderate-intensity aerobic activity per week, along with strength training exercises two or more days per week, as recommended by healthcare providers."
+      ]
+    },
+    {
+      "tag": "diabetes_and_travelling",
+      "patterns": [
+        "Tips for managing diabetes while traveling",
+        "Diabetes management during travel",
+        "Traveling with diabetes"
+      ],
+      "responses": [
+        "Managing diabetes while traveling requires careful planning and preparation. Some tips include packing extra diabetes supplies, carrying snacks to prevent low blood sugar, staying hydrated, wearing a medical ID bracelet, keeping medications and supplies in carry-on luggage, and being aware of time zone changes and meal schedules. Consult with your healthcare provider before traveling for personalized advice and recommendations."
+      ]
+    },
+    {
+      "tag": "diabetes_and_pregnancy",
+      "patterns": [
+        "How does diabetes affect pregnancy?",
+        "Diabetes and pregnancy risks",
+        "Managing diabetes during pregnancy"
+      ],
+      "responses": [
+        "Diabetes can affect pregnancy by increasing the risk of complications for both the mother and baby. Poorly controlled diabetes during pregnancy can lead to miscarriage, birth defects, gestational diabetes, preterm birth, and macrosomia (large birth weight). Proper management of blood sugar levels, regular prenatal care, and close monitoring by healthcare providers are essential for a healthy pregnancy outcome."
+      ]
+    },
+    {
+      "tag": "diabetes_and_mental_health",
+      "patterns": [
+        "The relationship between diabetes and mental health",
+        "Managing diabetes-related stress",
+        "Coping with diabetes and depression"
+      ],
+      "responses": [
+        "Living with diabetes can have a significant impact on mental health, leading to stress, anxiety, depression, and diabetes distress. It's essential to address emotional well-being alongside physical health when managing diabetes. Strategies for coping with diabetes-related stress may include seeking support from loved ones, joining support groups, practicing relaxation techniques, and seeking professional help if needed."
+      ]
+    },
+    {
+      "tag": "diabetes_and_foot_care",
+      "patterns": [
+        "Importance of foot care for individuals with diabetes",
+        "Preventing foot complications in diabetes",
+        "Diabetic foot care tips"
+      ],
+      "responses": [
+        "Foot care is crucial for individuals with diabetes to prevent complications such as foot ulcers, infections, and amputations. Tips for diabetic foot care include inspecting feet daily for cuts, blisters, or sores, keeping feet clean and moisturized, wearing proper footwear, avoiding walking barefoot, trimming toenails carefully, and seeking prompt medical attention for any foot problems."
+      ]
+    },
+    {
+      "tag": "diabetes_and_eye_health",
+      "patterns": [
+        "Effects of diabetes on eye health",
+        "Preventing diabetic eye complications",
+        "Eye care for individuals with diabetes"
+      ],
+      "responses": [
+        "Diabetes can increase the risk of eye complications such as diabetic retinopathy, cataracts, and glaucoma. It's essential for individuals with diabetes to have regular eye exams to detect any signs of eye disease early and prevent vision loss. Managing blood sugar levels, controlling blood pressure and cholesterol, and maintaining a healthy lifestyle can help protect eye health in diabetes."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "bye"
+      ],
+      "responses": [
+        "Goodbye! If you have any more questions in the future, feel free to ask."
+      ]
+    },
+    {
+      "tag": "RiskFactors",
+      "patterns": ["Am I At Risk For Diabetes?", "What increases my risk of diabetes?"],
+      "responses": ["Being age 45 or older", "Being overweight", "Being African American, Hispanic, Asian American, Pacific Islander, or American Indian", "Having a parent, sibling, or close relative with diabetes", "Having high blood pressure", "Having low HDL (good cholesterol) and high blood fats", "Having had diabetes during pregnancy or giving birth to a large baby (over 9 pounds)", "Being physically active less than three times a week"]
+    },
+    {
+      "tag": "Diagnosis",
+      "patterns": ["How Do I Know If I Have Diabetes?", "What are the signs of diabetes?", "How is diabetes diagnosed?"],
+      "responses": ["You may have warning signs such as increased thirst, frequent urination, unexplained weight loss, fatigue, blurred vision, or slow-healing sores. However, some people have no symptoms. Consult your healthcare provider for a blood test to check your glucose levels for a diagnosis."]
+    },
+    {
+      "tag": "Prevention",
+      "patterns": ["What Can I Do To Control Or Prevent Diabetes?", "How can I prevent diabetes?", "What lifestyle changes can help manage diabetes?"],
+      "responses": ["Maintain a healthy diet", "Stay physically active", "Take prescribed diabetes medication", "Monitor blood glucose levels regularly", "Control blood pressure and cholesterol levels", "Work with your healthcare provider to create a personalized management plan"]
+    },
+    {
+      "tag": "BloodSugarLevels",
+      "patterns": ["What should my blood sugar levels be?", "What are the target blood sugar levels for diabetes?", "What is a normal blood sugar range?"],
+      "responses": ["Fasting or before-meals goal: 70–130 mg/dl", "Postprandial (1-2 hours after eating) goal: under 180 mg/dl"]
+    },
+    {
+      "tag": "Motivation",
+      "patterns": ["How can I get motivated to take care of myself?"],
+      "responses": ["Set achievable goals", "Find social support", "Reward yourself for progress", "Stay educated about diabetes management", "Focus on the benefits of a healthy lifestyle"]
+    },
+    {
+      "tag": "GlucoseTablets",
+      "patterns": ["Should I always carry glucose tablets?"],
+      "responses": ["If you take certain medications that can cause hypoglycemia, such as insulin or sulfonylureas, carrying treatment like glucose tablets is advisable. However, most medications for type 2 diabetes don't cause hypoglycemia."]
+    },
+    {
+      "tag": "Remission",
+      "patterns": ["Can I get rid of diabetes? Will it ever go away?"],
+      "responses": ["Type 1 and type 2 diabetes are lifelong conditions. While they can be managed effectively, they cannot be cured. By controlling blood sugar, blood pressure, and cholesterol, you can prevent complications and lead a healthy life."]
+    },
+    {
+      "tag": "ExerciseNutrition",
+      "patterns": ["What are the best foods to eat before and after exercising?"],
+      "responses": ["Before exercise, consume easily digestible carbohydrates such as bread, crackers, fruit juice, or sports drinks for quick energy. After exercise, hydrate with water; if weight loss isn't a goal and there's no risk of hypoglycemia, consider a light snack."]
+    },
+    {
+      "tag": "Alcohol",
+      "patterns": ["Can I drink alcohol?"],
+      "responses": ["Moderate alcohol consumption, within recommended limits, is generally acceptable for adults with diabetes. It has minimal short- or long-term effects on glucose levels if consumed responsibly."]
+    },
+    {
+      "tag": "InsulinWeight",
+      "patterns": ["Will insulin make me gain weight?"],
+      "responses": ["Insulin helps regulate blood sugar by facilitating glucose uptake into cells. While weight gain is possible due to improved utilization of calories, it can be managed with portion control, exercise, and balanced nutrition."]
+    },
+    {
+      "tag": "Acceptance",
+      "patterns": ["How can I learn to accept my diabetes?"],
+      "responses": ["Acceptance involves acknowledging diabetes as part of your life and focusing on effective management strategies. Understanding that diabetes is treatable and doesn't have to limit your lifestyle is key to acceptance."]
+    },
+    {
+      "tag": "RoadFoods",
+      "patterns": ["For type 2 diabetes and as a truck driver, what foods can he take on the road?"],
+      "responses": ["Healthy on-the-go options include fresh fruit, yogurt, cheese, nuts, whole grain crackers, peanut butter, carrots, and snack packs. Hydration with water and calorie-free drinks is also important."]
+    },
+    {
+      "tag": "PAD",
+      "patterns": ["Why do my legs hurt when I start walking and stop hurting when I sit down?"],
+      "responses": ["Leg pain when walking and relief upon resting may indicate peripheral arterial disease (PAD), caused by reduced blood flow to the legs due to artery blockages. PAD increases the risk of heart attacks, strokes, and foot ulcers."]
+    },
+    {
+      "tag": "FruitCarbs",
+      "patterns": ["Why is it okay to eat fruit when it's full of carbohydrates? Are some fruits better to eat than others?"],
+      "responses": ["Fruits contain natural sugars but are also rich in essential nutrients and fiber. They can be part of a healthy diet for people with diabetes when consumed in moderation. Opt for whole fruits over fruit juices and choose a variety for balanced nutrition."]
+    },
+    {
+      "tag": "CarbDietWeight",
+      "patterns": ["Can I get rid of type 2 diabetes if I stop eating carbs and/or lose a lot of weight?"],
+      "responses": ["While significant weight loss can lead to remission of type 2 diabetes, it's not a permanent cure. Managing diabetes involves a balanced diet, regular physical activity, and sometimes medication to control blood sugar levels."]
+    },
+    {
+      "tag": "Endocrinologist",
+      "patterns": ["I was recently diagnosed with type 2 diabetes. Do I need to see an endocrinologist?"],
+      "responses": ["While an endocrinologist specializes in diabetes care, many individuals with type 2 diabetes can receive adequate management from a primary care provider who stays updated on current treatment guidelines."]
+    },
+    {
+      "tag": "InsulinNeed",
+      "patterns": ["Does a diagnosis of type 2 diabetes mean I will have to go on insulin?"],
+      "responses": ["Not necessarily. With early diagnosis and effective management, some individuals with type 2 diabetes may not require insulin therapy. Lifestyle changes and oral medications may suffice to control blood sugar levels."]
+    },
+    {
+      "tag": "ComplicationsPrevention",
+      "patterns": ["Is it true that complications of diabetes can be delayed and even prevented?"],
+      "responses": ["Yes, early diagnosis and proactive management of diabetes can significantly reduce the risk of complications. By controlling blood sugar, blood pressure, and cholesterol levels, and receiving regular check-ups, you can maintain good health."]
+    },
+    {
+      "tag": "InsulinLifespan",
+      "patterns": ["Will I need to be on insulin the rest of my life? Why can't I take pills instead?"],
+      "responses": ["The need for insulin in type 2 diabetes depends on various factors including disease progression, response to treatment, and individual circumstances. Insulin may be necessary for long-term management if other medications or lifestyle changes are insufficient to control blood sugar levels."]
+    },
+    {
+      "tag": "Definition",
+      "patterns": ["What is diabetes?"],
+      "responses": ["Diabetes is a condition characterized by high levels of glucose (sugar) in the blood. It occurs when the body's ability to produce or use insulin, a hormone that regulates blood sugar, is impaired."]
+    },
+    {
+      "tag": "HoneyDiabetes",
+      "patterns": ["Is honey okay to use if I have diabetes?", "Can I use honey with diabetes?", "What about using Stevia or Swerve instead of honey?"],
+      "responses": ["Honey and table sugar contain carbohydrates and affect blood sugar similarly. One tablespoon equals 15 grams of carbohydrate. Honey can be used in moderation, such as adding a teaspoon to plain Greek yogurt. If you prefer to save calories and carbohydrates, you can opt for calorie-free sugar substitutes like Stevia or Swerve."]
+    },
+    {
+      "tag": "Type1Carbs",
+      "patterns": ["What are the nutritional recommendations for individuals with type 1 diabetes regarding daily carbohydrate intake?", "How does a low-carb diet fit with type 1 diabetes?"],
+      "responses": ["Nutritional recommendations for type 1 diabetes vary and can include individualized meal plans. Some individuals opt for low-carb diets. Carbohydrate intake is managed per meal and snack, not per day, as insulin dosage is based on carbohydrate consumption. Sugar Surfing is a method used by some to manage blood sugar based on carbohydrate intake."]
+    },
+    {
+      "tag": "BeerCarbs",
+      "patterns": ["If I have a beer, should I count the carbs?", "Do alcoholic drinks affect blood sugar?"],
+      "responses": ["Yes, it's important to count the carbohydrates in beer, as they can impact blood sugar levels. Alcohol can initially lower blood sugar but may lead to a rebound high later. Monitor blood sugar closely when consuming alcoholic beverages."]
+    },
+    {
+      "tag": "AlternativeSnacks",
+      "patterns": ["I don't like cottage cheese. Are there other snack alternatives?", "What are some alternatives to cottage cheese as a snack?"],
+      "responses": ["Cottage cheese is nutrient-dense, but if you dislike it, consider other protein-rich snacks like cheese sticks, lean lunch meat, hardboiled eggs, nut butter, or beef jerky."]
+    },
+    {
+      "tag": "BloodSugarAfterMeals",
+      "patterns": ["What foods prevent blood sugar spikes after meals?", "How can I avoid post-meal blood sugar spikes?"],
+      "responses": ["Eating high-fiber foods, limiting carbohydrate intake, and incorporating healthy fats into meals can help prevent blood sugar spikes after meals. Ensure your medications are properly managed for optimal blood sugar control."]
+    },
+    {
+      "tag": "PreBedtimeSnack",
+      "patterns": ["What is a good pre-bedtime snack to prevent lows?", "Should I eat a snack before bed to prevent low blood sugar?"],
+      "responses": ["Many individuals do not need a bedtime snack, but if blood sugar is low, a snack with 15 grams of carbohydrate and protein can help. Options include half a sandwich, apple slices with peanut butter, or high-fiber cereal with milk. Consult your healthcare provider for personalized recommendations."]
+    },
+    {
+      "tag": "Macronutrients",
+      "patterns": ["What is the ideal macronutrient percentage per meal to maintain steady blood sugar?", "How should I balance carbohydrates, protein, and fat in my meals for stable blood sugar levels?"],
+      "responses": ["There's no one-size-fits-all macronutrient ratio for diabetes. Recommendations vary based on factors like weight, health goals, age, and medication regimen. Work with a healthcare provider or dietitian to determine personalized macronutrient goals."]
+    },
+    {
+      "tag": "BreakfastOptions",
+      "patterns": ["I don't like eating protein for breakfast. What else can I eat for breakfast that's good for my blood sugar?", "What are some breakfast options that don't include eggs or meat?"],
+      "responses": ["Consider high-fiber cereal with low-fat milk, whole grain bread with peanut butter, cheese with fruit, or leftovers from dinner. Incorporate your favorite foods into a balanced meal plan tailored to your dietary needs and preferences."]
+    },
+    {
+      "tag": "Type2Complications",
+      "patterns": ["Can type 2 diabetes lead to other health complications?", "What health problems can result from type 2 diabetes?"],
+      "responses": ["Yes, unmanaged type 2 diabetes can lead to various complications such as cardiovascular disease, nerve damage, kidney damage, and eye damage. Regular medical check-ups, blood sugar monitoring, and following a treatment plan are essential for prevention."]
+    },
+    {
+      "tag": "AlcoholBloodSugar",
+      "patterns": ["How does alcohol consumption affect blood sugar levels in people with type 2 diabetes?", "Does drinking alcohol affect blood sugar in type 2 diabetes?"],
+      "responses": ["Alcohol consumption can affect blood sugar levels. While it may initially lower blood sugar, it can lead to a rebound high later. It's important for individuals with type 2 diabetes to monitor their blood sugar closely when consuming alcohol."]
+    },
+    {
+      "tag": "PrediabetesDefinition",
+      "patterns": ["What is prediabetes?"],
+      "responses": ["Prediabetes is a condition where blood sugar levels are higher than normal but not yet high enough to be diagnosed as type 2 diabetes. It signifies an increased risk for developing diabetes."]
+    },
+    {
+      "tag": "PrediabetesSymptoms",
+      "patterns": ["What are the symptoms of prediabetes?"],
+      "responses": ["Prediabetes often has no symptoms. Some may experience increased thirst, frequent urination, blurred vision, or slow wound healing, but these symptoms are not specific to prediabetes."]
+    },
+    {
+      "tag": "PrediabetesCauses",
+      "patterns": ["What causes prediabetes?"],
+      "responses": ["Prediabetes is caused by factors like genetics, obesity, sedentary lifestyle, and poor diet. Medical conditions like PCOS and gestational diabetes can also increase the risk."]
+    },
+    {
+      "tag": "PrediabetesDiagnosis",
+      "patterns": ["How is prediabetes diagnosed?"],
+      "responses": ["Prediabetes is typically diagnosed through blood tests like the A1C test or fasting plasma glucose test."]
+    },
+    {
+      "tag": "PrediabetesReversible",
+      "patterns": ["Is prediabetes reversible?"],
+      "responses": ["Yes, prediabetes can often be reversed through lifestyle changes such as weight loss, regular exercise, and a healthy diet."]
+    },
+    {
+      "tag": "WeightLossPrevention",
+      "patterns": ["How can weight loss help prevent prediabetes from progressing to type 2 diabetes?"],
+      "responses": ["Weight loss can improve insulin sensitivity, lower blood sugar levels, and reduce the risk of developing type 2 diabetes. Even losing 5-10% of body weight can significantly lower the risk."]
+    },
+    {
+      "tag": "PrediabetesVsType2",
+      "patterns": ["What is the difference between prediabetes and type 2 diabetes?"],
+      "responses": ["Prediabetes indicates an increased risk for developing type 2 diabetes. In prediabetes, blood sugar levels are higher than normal but not yet high enough for a diabetes diagnosis. Type 2 diabetes involves consistently high blood sugar levels requiring treatment."]
+    },
+    {
+      "tag": "DietPrediabetes",
+      "patterns": ["How does diet affect prediabetes?"],
+      "responses": ["A diet high in calories, saturated fats, and refined sugars increases the risk of prediabetes and type 2 diabetes. Eating a balanced diet rich in fruits, vegetables, whole grains, and lean proteins can help lower blood sugar levels."]
+    },
+    {
+      "tag": "PrediabetesComplications",
+      "patterns": ["Can prediabetes lead to other health problems?"],
+      "responses": ["Yes, prediabetes is associated with an increased risk of cardiovascular disease, stroke, kidney disease, nerve damage, and other complications related to diabetes."]
+    },
+    {
+      "tag": "PhysicalActivityPrevention",
+      "patterns": ["Can physical activity help prevent prediabetes?"],
+      "responses": ["Yes, regular physical activity improves insulin sensitivity, lowers blood sugar levels, and promotes weight loss, reducing the risk of prediabetes."]
+    },
+    {
+      "tag": "PrediabetesTreatment",
+      "patterns": ["How is prediabetes treated?"],
+      "responses": ["Prediabetes is primarily treated through lifestyle changes such as weight loss, regular exercise, and a healthy diet. These changes can help lower blood sugar levels and reduce the risk of developing type 2 diabetes."]
+    },
+    {
+      "tag": "GestationalDiabetesDefinition",
+      "patterns": ["What is gestational diabetes?"],
+      "responses": ["Gestational diabetes is a type of diabetes that develops during pregnancy when the body cannot produce enough insulin to regulate blood sugar levels."]
+    },
+    {
+      "tag": "GestationalDiabetesRiskFactors",
+      "patterns": ["What are the risk factors for gestational diabetes?"],
+      "responses": ["Risk factors for gestational diabetes include family history of diabetes, being overweight, high blood pressure, and previous gestational diabetes."]
+    },
+    {
+      "tag": "GestationalDiabetesDiagnosis",
+      "patterns": ["How is gestational diabetes diagnosed?"],
+      "responses": ["Gestational diabetes is typically diagnosed through a glucose tolerance test, measuring blood sugar levels after consuming a sugary drink."]
+    },
+    {
+      "tag": "GestationalDiabetesSymptoms",
+      "patterns": ["What are the symptoms of gestational diabetes?"],
+      "responses": ["Symptoms may include increased thirst, frequent urination, and blurred vision. However, many women with gestational diabetes are asymptomatic."]
+    },
+    {
+      "tag": "GestationalDiabetesTreatment",
+      "patterns": ["How can gestational diabetes be treated?"],
+      "responses": ["Treatment often involves diet and exercise, sometimes supplemented with insulin injections if necessary."]
+    },
+    {
+      "tag": "GestationalDiabetesBabyEffects",
+      "patterns": ["Can gestational diabetes affect the baby?"],
+      "responses": ["Yes, gestational diabetes can affect the baby's growth, increasing the risk of large birth weight, breathing difficulties, and low blood sugar after birth."]
+    },
+    {
+      "tag": "GestationalDiabetesMotherEffects",
+      "patterns": ["How does gestational diabetes affect the mother?"],
+      "responses": ["Gestational diabetes increases the risk of high blood pressure, pre-eclampsia, and later development of type 2 diabetes in the mother."]
+    },
+    {
+      "tag": "GestationalDiabetesPrevention",
+      "patterns": ["Can gestational diabetes be prevented?"],
+      "responses": ["While prevention can be challenging, maintaining a healthy weight and lifestyle before and during pregnancy can reduce the risk."]
+    },
+    {
+      "tag": "GestationalDiabetesLifelong",
+      "patterns": ["Is gestational diabetes a lifelong condition?"],
+      "responses": ["No, gestational diabetes typically resolves after childbirth. However, women who have had it are at increased risk of developing type 2 diabetes later in life."]
+    },
+    {
+      "tag": "GestationalDiabetesDiet",
+      "patterns": ["What should women with gestational diabetes eat?"],
+      "responses": ["A balanced diet high in fruits, vegetables, and whole grains, and low in sugar and saturated fats is recommended for women with gestational diabetes."]
+    },
+    {
+      "tag": "GestationalDiabetesBloodSugarCheck",
+      "patterns": ["How often should women with gestational diabetes check their blood sugar levels?"],
+      "responses": ["Women with gestational diabetes are typically advised to check their blood sugar levels at least three times a day."]
+    },
+    {
+      "tag": "GestationalDiabetesNoMedication",
+      "patterns": ["Can gestational diabetes be controlled without medication?"],
+      "responses": ["Some cases of gestational diabetes can be controlled through diet and exercise alone, while others may require insulin injections."]
+    },
+    {
+      "tag": "GestationalDiabetesExercise",
+      "patterns": ["Is it safe to exercise while pregnant with gestational diabetes?"],
+      "responses": ["Yes, exercise during pregnancy is generally safe and can help control blood sugar levels and reduce the risk of complications."]
+    },
+    {
+      "tag": "Type1NutritionalRequirements",
+      "patterns": ["What are the specific nutritional requirements for people with type 1 diabetes?"],
+      "responses": ["People with type 1 diabetes require a balanced diet that includes a variety of carbohydrates, proteins, and healthy fats. Monitoring blood sugar levels and adjusting meal plans accordingly is crucial."]
+    },
+    {
+      "tag": "Type2NutrientNeeds",
+      "patterns": ["How does type 2 diabetes affect nutrient needs?"],
+      "responses": ["Type 2 diabetes can result in insulin resistance, making it important for individuals to consume a diet low in added sugars and refined carbohydrates, and high in fiber and nutrient-dense foods like fruits, vegetables, and lean proteins."]
+    },
+    {
+      "tag": "PrediabetesMacronutrientRatios",
+      "patterns": ["What are the recommended macronutrient ratios for someone with prediabetes?"],
+      "responses": ["The recommended macronutrient ratios for someone with prediabetes include 40-50% carbohydrates, 20-30% protein, and 30-40% healthy fats to help manage blood sugar levels."]
+    },
+    {
+      "tag": "Type1HighFatDiet",
+      "patterns": ["Can a high-fat diet benefit people with type 1 diabetes?"],
+      "responses": ["While some studies suggest benefits, high-fat diets for type 1 diabetes should be managed by healthcare professionals to avoid health risks such as heart disease."]
+    },
+    {
+      "tag": "Type2BestCarbohydrates",
+      "patterns": ["What are the best types of carbohydrates for people with type 2 diabetes?"],
+      "responses": ["High-fiber, low-glycemic index carbohydrates like whole grains, fruits, vegetables, and legumes are best for managing blood sugar levels in type 2 diabetes."]
+    },
+    {
+      "tag": "PrediabetesRiskReduction",
+      "patterns": ["How can a person with prediabetes lower their risk of developing diabetes?"],
+      "responses": ["Maintaining a healthy weight, staying physically active, and eating a diet low in added sugars and refined carbs while high in fiber and nutrients can reduce the risk of diabetes."]
+    },
+    {
+      "tag": "Type1BloodSugarControlFoods",
+      "patterns": ["Are there any specific foods or supplements that can help control blood sugar levels for people with type 1 diabetes?"],
+      "responses": ["Non-starchy vegetables, nuts, seeds, fish, and certain supplements like chromium and omega-3 fatty acids may help control blood sugar levels in type 1 diabetes."]
+    },
+    {
+      "tag": "Type2PortionSizes",
+      "patterns": ["What are the recommended portion sizes for people with type 2 diabetes?"],
+      "responses": ["Portion sizes for people with type 2 diabetes should include balanced amounts of carbohydrates, proteins, and healthy fats, adjusted based on individual needs and blood sugar levels."]
+    },
+    {
+      "tag": "PrediabetesVegetarianDiet",
+      "patterns": ["Can a vegetarian or vegan diet be beneficial for people with prediabetes?"],
+      "responses": ["Yes, a well-planned vegetarian or vegan diet can benefit people with prediabetes by providing low saturated fat and high fiber, aiding in blood sugar control."]
+    },
+    {
+      "tag": "Type1NutrientDeficiencies",
+      "patterns": ["Are there any specific nutrient deficiencies common in people with type 1 diabetes?"],
+      "responses": ["Vitamin D, B12, magnesium, and zinc deficiencies are common in people with type 1 diabetes."]
+    },
+    {
+      "tag": "Type1ExerciseBloodSugar",
+      "patterns": ["How does exercise impact blood sugar levels for people with type 1 diabetes?"],
+      "responses": ["Exercise can lower blood sugar levels by increasing glucose uptake by muscles. It's important for type 1 diabetics to monitor levels before, during, and after exercise to prevent hypoglycemia."]
+    },
+    {
+      "tag": "Type2ExerciseRecommendation",
+      "patterns": ["What type of exercise is best for people with type 2 diabetes?"],
+      "responses": ["Aerobic exercises like walking, cycling, and swimming, along with strength training, are recommended for improving insulin sensitivity and managing blood sugar levels in type 2 diabetes."]
+    },
+    {
+      "tag": "Type1ExerciseHypoglycemiaPrevention",
+      "patterns": ["How can I prevent hypoglycemia during exercise if I have type 1 diabetes?"],
+      "responses": ["To prevent hypoglycemia, monitor blood sugar levels before and during exercise, adjust insulin doses as needed, and consume carbohydrates before exercise."]
+    },
+    {
+      "tag": "Type2ExerciseWeightManagement",
+      "patterns": ["How does exercise impact weight management for people with type 2 diabetes?"],
+      "responses": ["Regular exercise, particularly aerobic and resistance training, helps with weight management in type 2 diabetes by increasing muscle mass and metabolism."]
+    },
+    {
+      "tag": "PrediabetesExerciseSafety",
+      "patterns": ["How can I safely exercise with prediabetes?"],
+      "responses": ["Start with moderate-intensity aerobic exercise like brisk walking, monitor blood sugar levels, and consult a healthcare professional before beginning any exercise program."]
+    },
+    {
+      "tag": "Type1ResistanceTrainingSafety",
+      "patterns": ["Is it safe to do resistance training with type 1 diabetes?"],
+      "responses": ["Yes, resistance training is safe and beneficial for type 1 diabetes, but blood sugar levels should be monitored before, during, and after training."]
+    },
+    {
+      "tag": "Type2ExercisePrecautions",
+      "patterns": ["What precautions should be taken before starting an exercise routine for type 2 diabetes?"],
+      "responses": ["Consult a healthcare provider, ensure blood sugar levels are stable, and have glucose on hand in case of low blood sugar episodes before starting an exercise routine."]
+    },
+    {
+      "tag": "PrediabetesHIITSafety",
+      "patterns": ["Can high-intensity interval training (HIIT) be done safely by people with prediabetes?"],
+      "responses": ["HIIT may not be recommended for prediabetes due to potential blood sugar fluctuations. Moderate-intensity exercises like brisk walking are safer."]
+    },
+    {
+      "tag": "Type1KetoacidosisPrevention",
+      "patterns": ["How can people with type 1 diabetes avoid the risk of ketoacidosis during exercise?"],
+      "responses": ["Monitor blood sugar levels before, during, and after exercise, adjust insulin doses, and consume carbohydrates before exercise to prevent ketoacidosis."]
+    },
+    {
+      "tag": "GestationalDiabetesFuturePregnancies",
+      "patterns": ["Will gestational diabetes affect future pregnancies?"],
+      "responses": ["Women who have had gestational diabetes are at an increased risk of developing the condition again in future pregnancies."]
+    },
+    {
+      "tag": "GestationalDiabetesCure",
+      "patterns": ["Can gestational diabetes be cured?"],
+      "responses": ["There is no cure for gestational diabetes, but it can be controlled with proper management and treatment."]
+    },
+    {
+      "tag": "BloodSugarLevels",
+      "patterns": ["What should my blood sugar be when I wake up (fasting) and before meals? What about after?"],
+      "responses": ["For most people with diabetes, the American Diabetes Association recommends a fasting or before-meals blood glucose goal of 70–130 mg/dl. One to two hours after eating, a postprandial blood sugar reading at or under 180 mg/dl is recommended."]
+    },
+    {
+      "tag": "Type2InsulinNeed",
+      "patterns": ["Does a diagnosis of type 2 diabetes mean I will have to go on insulin?"],
+      "responses": ["No. Whether a person with type 2 diabetes needs insulin depends on several factors, including the timing of diagnosis. Early treatment and blood sugar control can help delay or prevent the need for insulin."]
+    },
+    {
+      "tag": "EndocrinologistNeed",
+      "patterns": ["I was recently diagnosed with type 2 diabetes. Do I need to see an endocrinologist?"],
+      "responses": ["While diabetes falls under endocrinology, many people with type 2 diabetes can work with a primary care provider knowledgeable about diabetes. Regular check-ups and staying updated on current guidelines are essential."]
+    },
+    {
+      "tag": "Type2Remission",
+      "patterns": ["Can I get rid of type 2 diabetes if I stop eating carbs and/or lose a lot of weight?"],
+      "responses": ["While weight loss can put type 2 diabetes into remission, it's essential to maintain a healthy lifestyle to prevent its return. Severe carbohydrate restriction is not sustainable or recommended."]
+    },
+    {
+      "tag": "FruitCarbohydrates",
+      "patterns": ["Why is it OK to eat fruit when it's full of carbohydrate? Are some fruits better to eat than others?"],
+      "responses": ["Fruits provide essential nutrients and carbohydrates necessary for energy. Choosing whole fruits without added sugar is recommended. Some fruits have lower glycemic indexes and may have less impact on blood sugar levels."]
+    },
+    {
+      "tag": "AcceptingDiabetes",
+      "patterns": ["How can I learn to accept my diabetes?"],
+      "responses": ["Accepting diabetes involves recognizing it as a part of life and focusing on effective management strategies. Education, support from healthcare providers, and active participation in treatment can help with acceptance."]
+    },
+    {
+      "tag": "TruckDriverDiet",
+      "patterns": ["My husband has type 2 diabetes and is a truck driver. What foods can he take on the road?"],
+      "responses": ["For truck drivers, preplanning and packing healthy snacks like fruits, nuts, yogurt, cheese, whole wheat crackers, peanut butter, and veggies can help maintain a balanced diet on the road."]
+    },
+    {
+      "tag": "InsulinWeightGain",
+      "patterns": ["Will insulin make me gain weight?"],
+      "responses": ["Insulin helps the body utilize glucose for energy and can contribute to weight gain if calorie intake exceeds energy expenditure. Portion control, exercise, and managing blood sugar levels can help prevent weight gain."]
+    },
+    {
+      "tag": "WeightLossImportance",
+      "patterns": ["Why is weight loss so important? What's the best way for a person with type 2 to lose weight?"],
+      "responses": ["Weight loss improves insulin sensitivity and can lead to better blood sugar, blood pressure, and cholesterol levels. Slow, steady weight loss through lifestyle changes such as diet modifications and exercise is recommended."]
+    },
+    {
+      "tag": "AlcoholConsumption",
+      "patterns": ["Can I drink alcohol?"],
+      "responses": ["Moderate alcohol consumption, following general guidelines, is generally safe for adults with diabetes. It's essential to monitor blood sugar levels and drink in moderation."]
+    },
+    {
+      "tag": "HormonalEffectsOnGlucose",
+      "patterns": ["Can your menstrual cycle and/or going through menopause affect glucose levels?"],
+      "responses": ["Yes, hormonal fluctuations during the menstrual cycle and menopause can affect glucose levels in women. Monitoring glucose levels and adapting management strategies accordingly is important."]
+    },
+    {
+      "tag": "PrePostExerciseNutrition",
+      "patterns": ["What are the best foods to eat before and after exercising?"],
+      "responses": ["Before exercise, consume quick-digesting carbohydrates for energy. Afterward, consider replenishing fluids and nutrients with a balanced meal or snack containing protein and carbohydrates."]
+    },
+    {
+      "tag": "LancetReuse",
+      "patterns": ["Why can't my wife and I use the same lancet if we clean it?"],
+      "responses": ["Sharing blood-testing devices, including lancets, can pose a risk of infection according to CDC recommendations. It's important to use separate lancets to prevent contamination."]
+    },
+    {
+      "tag": "DiabetesCure",
+      "patterns": ["Can I get rid of diabetes? Will it ever go away?"],
+      "responses": ["Once diagnosed with type 1 or type 2 diabetes, it remains a lifelong condition. However, effective management can help control blood sugar levels and prevent complications."]
+    },
+    {
+      "tag": "GlucoseMeterReplacement",
+      "patterns": ["How often should I replace my glucose meter?"],
+      "responses": ["Replace your glucose meter only if it is not working correctly with its strips. Using control solution can help verify its accuracy."]
+    },
+    {
+      "tag": "GlucoseTablets",
+      "patterns": ["Should I always carry glucose tablets?"],
+      "responses": ["Carrying glucose tablets is recommended for individuals at risk of hypoglycemia due to certain blood glucose-lowering medications. It's essential to be prepared to treat low blood sugar levels."]
+    },
+    {
+      "tag": "DiabetesComplicationsPrevention",
+      "patterns": ["Is it true that complications of diabetes can be delayed and even prevented?"],
+      "responses": ["Early diagnosis and proactive management of diabetes can significantly reduce the risk of complications. Maintaining target blood sugar, blood pressure, and cholesterol levels is crucial."]
+    },
+    {
+      "tag": "InsulinLongTermNeed",
+      "patterns": ["Will I need to be on insulin the rest of my life? Why can't I take pills instead?"],
+      "responses": ["The need for insulin in type 2 diabetes depends on various factors, including blood sugar control and individual response to medication. In some cases, insulin may be necessary for long-term management."]
+    },
+    {
+      "tag": "SelfCareMotivation",
+      "patterns": ["How can I get motivated to take care of myself?"],
+      "responses": ["Motivation for self-care in diabetes management can be enhanced by setting realistic goals, celebrating small victories, and focusing on positive changes. Building habits gradually and seeking support can also help."]
+    },
+    {
+      "tag": "family_history_type2_diabetes",
+      "patterns": ["If my father has type 2 diabetes, does that mean that I am more likely to get it also?"],
+      "responses": ["You may have the genetic foundation for developing diabetes, but it is not inevitable. What you hopefully have learned is that lifestyle and food management are so important to staying in good health. Stay active, eat unrefined foods as much as possible, and manage stress levels. These are the first ingredients to a healthier life."]
+    },
+    {
+      "tag": "acidic_breath_diabetes",
+      "patterns": ["In the past three days my husband’s breath has smelled strongly acidic. Is this related to his diabetes?"],
+      "responses": ["If his glucose levels have been elevated, he could be breaking down fat for fuel at a rapid rate. This produces ketones, which can produce fruity or acidic breath. You can purchase ketone strips at the pharmacy to test urine for the presence of ketones. If this persists and if his glucose stays elevated in spite of any efforts on his part for correction, have him see his physician."]
+    },
+    {
+      "tag": "prediabetes_diagnosis_type2",
+      "patterns": ["My 12-year-old daughter has been diagnosed with pre-diabetes from a blood test. Is that always type 2?"],
+      "responses": ["Those diagnosed with type 2 diabetes will still produce insulin. A fasting level 126 or greater taken twice is considered a diagnosis of diabetes. Pre-diabetes is generally 100-125, but you will see different ranges for what is considered normal with some thinking that 80 is an ideal fasting level. A 12-year-old girl will fluctuate with menses onset and because she is still growing. Developing healthy eating/lifestyle habits now is most important."]
+    },
+    {
+      "tag": "diabetes_type1_or_type2",
+      "patterns": ["How do I find out whether I am type 1 or type 2 diabetes?"],
+      "responses": ["There are tests that can determine levels of natural insulin production. If you are truly type 1, you require insulin in order to live, usually via daily injections. With type 2, some people take insulin to help get glucose levels under control, but by adopting a more healthy lifestyle with diet/exercise, levels can begin to come under better control and insulin/medication may not be required."]
+    },
+    {
+      "tag": "heating_pads_diabetes",
+      "patterns": ["I read that people with diabetes should not use heating pads. Why not?"],
+      "responses": ["This recommendation is more of a caution for those who have neuropathy and may not feel if the pad gets too hot and could be burned as a result."]
+    },
+    {
+      "tag": "fasting_before_A1C_test",
+      "patterns": ["Do I need to fast before having an A1C test?"],
+      "responses": ["No, fasting is not required for an A1C because the test measures your average blood glucose levels over the past three months."]
+    },
+    {
+      "tag": "what_is_A1C_test",
+      "patterns": ["What is an A1C test?"],
+      "responses": ["The A1C test higher your A1C level is, the poorer your blood sugar control and the higher your risk of diabetes complications."]
+    },
+    {
+      "tag": "diabetes_tiredness_after_eating",
+      "patterns": ["Is diabetes causing me to be tired and sleepy after eating?"],
+      "responses": ["Elevated blood sugar levels send a signal to the brain to release serotonin, a hormone that is both calming and sleep-inducing. If a meal is high in carbs, that converts to sugar more quickly, elevating levels that may already be high and causing even more sleepiness. Eating more unrefined foods and walking will be a step toward better control and alertness."]
+    },
+    {
+      "tag": "A1C_high_with_low_fasting_readings",
+      "patterns": ["Can my A1C be high if my fasting readings are lower than 130?"],
+      "responses": ["If you have never been tested for a 3-hour glucose tolerance test, showing how you react at 1, 2, and 3-hour intervals, it may be that you spike higher during those times, accounting for higher A1C. You can also start testing your glucose one hour after meals to see how high you rise, especially on those “bad” days. Track your food intake during that time to see what foods may be spiking you the most."]
+    },
+    {
+      "tag": "ketoacidosis_symptoms",
+      "patterns": ["What is ketoacidosis and what are the symptoms?"],
+      "responses": ["Ketoacidosis is the build-up of ketones (a by-product of rapid fat breakdown in the body) and can be life-threatening if left untreated. This would generally not occur unless glucose levels were very elevated over a longer period where the cells, needing fuel, rapidly break down fat to help keep you alive. At that point, one may be in a diabetic coma. In pregnancy, it is important for good control to prevent ketoacidosis so ketone bodies do not form, as they can cross the placenta and be toxic to the fetus. Symptoms may include fruity smelling breath, high blood sugar, excessive thirst, frequent urination, nausea, and vomiting. If concerned, you can buy strips at the pharmacy to test urine for the presence of ketones."]
+    },
+    {
+      "tag": "fasting_before_glucose_test",
+      "patterns": ["Why do I need to fast for 10 hours before a fasting glucose blood test?"],
+      "responses": ["This time frame gives your body a chance to digest all food in your system to more readily determine what your true fasting blood sugar is. Carbs, proteins, and fats all digest at a different rate and a larger meal will take longer to digest. A fasting blood sugar of 126 repeated twice is a diagnosis of diabetes."]
+    },
+    {
+      "tag": "drinking_black_coffee_fasting_test",
+      "patterns": ["Does drinking black coffee impact a fasting test?"],
+      "responses": ["Caffeine is a central nervous system stimulator, and may have a short-term effect on blood sugars. Only water should be consumed prior to testing."]
+    },
+    {
+      "tag": "signs_of_diabetes",
+      "patterns": ["What are some signs of diabetes that I should watch out for?"],
+      "responses": ["Some common signs include frequent urination, increased thirst, unexplained weight loss, extreme hunger, blurry vision, and fatigue. If you're experiencing any of these symptoms, it's important to see a healthcare professional for evaluation."]
+    },
+        {
+      "tag": "eating_with_type1_diabetes",
+      "patterns": ["What can I eat with type 1 diabetes?"],
+      "responses": ["You can eat just about anything and everything. It’s about learning to balance meals and finding foods that are healthy for you. As processed foods tend to increase blood sugar more rapidly, it’s best to avoid them, or at least try to limit consumption. Work with a registered dietitian or doctor to develop an eating plan that works for you."]
+    },
+    {
+      "tag": "alcohol_and_diabetes",
+      "patterns": ["Can I drink alcohol?"],
+      "responses": ["Yes, but in moderation. The American Heart Association defines healthy alcohol consumption as one drink per day for women and two drinks per day for men. Make sure to have some carbohydrate to eat before or while you drink, as alcohol may cause low blood glucose."]
+    },
+    {
+      "tag": "other_medication_with_insulin",
+      "patterns": ["Will I need other medication in addition to insulin?"],
+      "responses": ["In short, maybe. Although most type 1 diabetes can be managed with insulin, a healthy diet, exercise, and regular blood glucose testing, some people will need additional treatment. You may also need other medications if you’re managing other conditions in addition to diabetes. For example, since type 1 diabetes increases your risk for heart disease, your doctor may prescribe additional medication if you have high cholesterol or high blood pressure. They may also recommend daily aspirin to protect against heart attack and improve circulation."]
+    },
+    {
+      "tag": "hypoglycemia_unawareness",
+      "patterns": ["What can I do if I don’t experience the warning symptoms of low blood sugar (hypoglycemia unawareness)?"],
+      "responses": ["Low blood sugar, or hypoglycemia, affects different people differently. While there are common symptoms — weakness, fatigue, tingling in the fingers — not everyone with type 1 diabetes will experience them, according to Diabetes UK. This is especially true for people who have had the condition for a long time. More frequent blood sugar testing, or the use of an insulin pump or continuous glucose monitor can help. You should also work with your healthcare team, who may adjust your blood sugar targets to help avoid episodes of low blood sugar, notes the ADA."]
+    },
+    {
+      "tag": "adjusting_insulin_for_exercise",
+      "patterns": ["How should I adjust insulin doses before, during, and after exercise?"],
+      "responses": ["It depends on your activity level and types of activities you’re doing, the ADA says. Aerobic exercise like jogging or bike riding can lower blood sugar, while anaerobic workouts like weight training can increase it. Work with your care team to develop an exercise plan and insulin regimen that works for you, and expect some trial and error. Using a continuous glucose monitor during exercise can help you determine how exercise affects you, and provide a guide for insulin dosing. In addition to adjusting your insulin, your care team can help you adjust your carb intake before and after exercise to maintain healthy blood glucose levels."]
+    },
+    {
+      "tag": "passing_diabetes_to_children",
+      "patterns": ["Will I pass type 1 diabetes onto my children?"],
+      "responses": ["It’s possible. While the exact causes of type 1 diabetes are still unknown, according to the American Diabetes Association, genetics do play a role, particularly when both parents have it. It’s important to note that while the lifestyle choices you make, like what you eat or how often you exercise, can affect your blood glucose with type 1 diabetes, there are a lot of other factors as well, like stress and poor sleep."]
+    }
+
+  ]
+}

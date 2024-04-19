@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Training Results</title>
+</head>
+<body>
+    <h1>Training Results</h1>
+    <pre>{{ result }}</pre>
+
+    <br>
+     <br>
+    <a href="{{ url_for('index') }}"><button type="submit" class="button">Back to Home</button></a>
+</body>
+</html>
