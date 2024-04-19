@@ -42,8 +42,7 @@ six==1.16.0
 soupsieve==2.5
 sympy==1.12
 torch==2.2.2
-torchaudio==2.2.2
-torchvision==0.17.2
+
 tqdm==4.66.1
 typing_extensions==4.8.0
 tzdata==2023.3
